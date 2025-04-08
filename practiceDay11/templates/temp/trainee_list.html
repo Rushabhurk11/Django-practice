@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trainee List</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Trainee Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for trainee in trainees %}
+            <tr>
+                
+                <td>{{ trainee.name }}</td>
+                <td>{{ trainee.email }}</td>
+                <td>{{ trainee.age }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">No trainees found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
