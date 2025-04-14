@@ -1,4 +1,4 @@
-
+# Day 1
 # 🧱 Django Project Structure & File Explanation
 
 This guide walks you through creating a Django project step-by-step and explains the purpose of each file and folder.
