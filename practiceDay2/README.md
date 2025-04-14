@@ -1,4 +1,4 @@
-
+# Day2
 # 🚀 Django Project with App Displaying "Welcome" Message
 
 ### 📌 Key Points Before We Start
