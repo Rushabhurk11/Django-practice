@@ -3,15 +3,15 @@
 
 ### 📌 Key Points Before We Start
 
-## ✅ You can create multiple apps in a single Django project.
+### ✅ You can create multiple apps in a single Django project.
 
-## ✅ Each app handles a specific functionality (e.g., blog, authentication, payment).
+### ✅ Each app handles a specific functionality (e.g., blog, authentication, payment).
 
-## ✅ The project is like the container and apps are like modules inside it.
+### ✅ The project is like the container and apps are like modules inside it.
 
-## ✅ Apps can be reused across different Django projects.
+### ✅ Apps can be reused across different Django projects.
 
-## ✅ Use manage.py to interact with your project (runserver, migrate, etc.).
+### ✅ Use manage.py to interact with your project (runserver, migrate, etc.).
 
 
 
